@@ -1,0 +1,6 @@
+# Security - SSH Keys and sensitive files
+security/
+*.pem
+*.ppk
+*.key
+projects/aws-mwaa-dev/
