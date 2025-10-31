@@ -4,3 +4,5 @@ security/
 *.ppk
 *.key
 projects/aws-mwaa-dev/
+metadata/utils/__pycache__/
+metadata/config.yaml

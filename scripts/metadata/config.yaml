@@ -1,0 +1,22 @@
+# Databricks Lakebase Connection
+lakebase:
+  host: instance-7038d2a5-c190-451d-b96c-f205b47cadc5.database.cloud.databricks.com
+  port: 5432
+  database: databricks_postgres
+  user: tommaso.bicocchi@capgemini.com
+  schema: metadata
+  sslmode: require
+
+# Databricks API (per OAuth token)
+databricks:
+  host: https://enb-capgemini.cloud.databricks.com/
+  # Token from env var: DATABRICKS_TOKEN
+
+# OAuth settings
+oauth:
+  token_lifetime_seconds: 3600
+
+# Logging
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
